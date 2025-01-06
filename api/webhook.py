@@ -23,7 +23,7 @@ bucket = storage.bucket()
 
 def generate_start_keyboard():
     keyboard = InlineKeyboardMarkup()
-    keyboard.add(InlineKeyboardButton("Open Beycoin App", web_app=WebAppInfo(url="https://tapcity.netlify.app/")))
+    keyboard.add(InlineKeyboardButton("Open TapCity App", web_app=WebAppInfo(url="https://tapcity.netlify.app/")))
     return keyboard
 
 @bot.message_handler(commands=['start'])
